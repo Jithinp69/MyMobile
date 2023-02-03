@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Mobile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cart.css" />
+
+  </head>
+
+  <body>
+    <div class="main">
+      <nav>
+        <div class="logo">
+          <img src="./images/logo1.jpg" alt="web logo" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">EMI</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="cart">
+        <div class="header">
+          <h1>Shopping Cart</h1>
+        </div>
+        <div class="cart-items">
+            <h3>iPhone 14</h3>
+            <img src="./images/mobile.png" alt="mobile">
+           
+        </div>
+        <div class="qty">
+            <div class="qty-increase" id="qtyinc"><button>+</button></div>
+            QTY: <span id="total-qty">0</span>
+            
+            <div class="qty-increase" id="qtydec"><button>-</button></div>
+          </div>
+        <div class="total">
+          Total: Rs. <span id="total-price">0</span>
+        </div>
+        <button id="checkout-button">Checkout</button>
+      </div>
+      
+<script src="./cart.js"></script>   
+
+<script>
+
+</script>
+  </body>
+</html>

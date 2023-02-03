@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Mobile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo1.jpg" alt="web logo" />
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="emi.html">EMI</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-header">
+                    <h1>Contact Form</h1>
+                    <hr />
+                </div>
+                <div class="input-row">
+                    <div class="inp-group">
+                        <label for="first name">First Name</label>
+                        <input type="text" class="form-control" placeholder="Enter First name" required />
+                    </div>
+                    <div class="inp-group">
+                        <label for="Last name">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Last name" required />
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="inp-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter Email" required />
+                    </div>
+                    <div class="inp-group">
+                        <label for="phone number">Phone Number</label>
+                        <input type="text" class="form-control" placeholder="Enter First name" required />
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="inp-group">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" placeholder="Enter Your address here" required />
+                    </div>
+                    <div class="inp-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" placeholder="Enter yout message here" required />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h2>Gender</h2>
+                    </div>
+                    <span id="gender">
+                        <input type="radio" class="gender" value="Male" />
+                        <label for="Male">Male</label><br />
+                        <input type="radio" class="gender" value="Female" />
+                        <label for="Female">Female</label><br />
+                        <input type="radio" class="gender" value="Other" />
+                        <label for="Other">Other</label>
+                    </span>
+                </div>
+                <div class="button">
+                    <button>Register</button>
+                </div>
+            </form>
+
+</body>
+
+</html>

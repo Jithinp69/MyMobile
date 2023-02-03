@@ -1,0 +1,40 @@
+.emi-chart{
+    width: 50%;
+    position: absolute;
+    transform: translateX(45%)
+    translateY(60%);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #fff;
+}
+
+.emi-chart .emi-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.emi-chart input{
+    width: 90%;
+    padding: 10px;
+}
+
+.emi-details{
+    margin: 20px;
+}
+
+.emi-details{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.emi-details .emi-option{
+    padding: 10px;
+}
+
+.emi-option span {
+    padding: 0 20px;
+}
