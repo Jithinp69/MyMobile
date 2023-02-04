@@ -15,7 +15,7 @@
     <div class="main">
         <nav>
             <div class="logo">
-                <img src="./images/logo1.jpg" alt="web logo" />
+                <img src="./images/logo1.png" alt="web logo" />
             </div>
             <div class="nav-links">
                 <ul>
@@ -31,40 +31,44 @@
                 <div>
                     <div class="emi-sub">
                         <h3>Loan Amount</h3>
-                        <h3 id="loan-amount">100000</h3>
+                        <h3 id="loan-amount"></h3>
                     </div>
                     <input type="range" id="range-amount" min="10000" max="500000" value="250000">
                 </div>
                 <div>
                     <div class="emi-sub">
                         <h3>Rate of Interest (p.a)</h3>
-                        <h3 id="interest">6</h3>
+                        <h3 id="interest"></h3>
                     </div>
                     <input type="range" id="range-interest" min="8" max="16" value="12">
                 </div>
                 <div>
                     <div class="emi-sub">
                         <h3>Loan Tenure (Year)</h3>
-                        <h3 id="tenure">5</h3>
+                        <h3 id="tenure"></h3>
                     </div>
                     <input type="range" id="range-tenure" min="1" max="6" value="3">
+                </div>
+
+                <div>
+                    <button id="button">Get EMI Details</button>
                 </div>
                 <div class="emi-details">
                     <div class="emi-option">
                         <span>Monthly EMI : </span>
-                        <span id="emi">100</span>
+                        <span id="emi"></span>
                     </div>
                     <div class="emi-option">
-                        <span>Principal Amount : </span>
-                        <span id="principal-amount">100</span>
+                        <span>Principle Amount : </span>
+                        <span id="principal-amount"></span>
                     </div>
                     <div class="emi-option">
                         <span>Total Interest : </span>
-                        <span id="interest-rate">100</span>
+                        <span id="interest-rate"></span>
                     </div>
                     <div class="emi-option">
                         <span>Total Amount : </span>
-                        <span id="total-amount">100</span>
+                        <span id="total-amount"></span>
                     </div>
                 </div>
             </section>
