@@ -32,29 +32,29 @@ h1 {
 }
 
 .qty {
-    background-color: #f2f2f2;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .qty-increase{
-    margin: 0 50px;
-  }
+.qty-increase {
+  margin: 0 50px;
+}
 
-  .qty-increase button {
-    background-color: black;
-    color: #f2f2f2;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-  }
+.qty-increase button {
+  background-color: black;
+  color: #f2f2f2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
 
 .total {
   background-color: #f2f2f2;

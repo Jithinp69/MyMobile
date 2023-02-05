@@ -2,7 +2,7 @@ var qty = document.getElementById("total-qty");
 
 let sum = 0;
 
-let cost = 55000 ;
+let cost = 55000;
 
 var incClick = document.getElementById("qtyinc");
 var decClick = document.getElementById("qtydec");
@@ -22,5 +22,3 @@ decClick.onclick = () => {
     total.innerHTML = sum * cost;
   }
 };
-
-

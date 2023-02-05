@@ -1,0 +1,43 @@
+.support {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.support h1 {
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.support-input {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #fff;
+}
+
+.support-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.support-div {
+    width: 90%;
+    text-align: center;
+    margin: 20px;
+    background-color: #ae49c0;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 3px 3px 15px #fff;
+    border-radius: 20px;
+}
+
+.support-div img {
+    margin-top: 30px;
+}
+
+.support-option .support-div p {
+    margin-top: 20px;
+}
